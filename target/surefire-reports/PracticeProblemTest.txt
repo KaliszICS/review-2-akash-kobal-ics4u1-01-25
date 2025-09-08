@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: PracticeProblemTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 2, Skipped: 0, Time elapsed: 0.115 s <<< FAILURE! - in PracticeProblemTest
+testQ1_1  Time elapsed: 0.047 s  <<< ERROR!
+java.util.InputMismatchException
+	at PracticeProblemTest.testQ1_1(PracticeProblemTest.java:34)
+
+testQ1_2  Time elapsed: 0 s  <<< ERROR!
+java.util.InputMismatchException
+	at PracticeProblemTest.testQ1_2(PracticeProblemTest.java:49)
+
+testQ2_1  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <In: In: 1
+4
+> but was: <Int 1: Int 2: 1
+4
+>
+	at PracticeProblemTest.testQ2_1(PracticeProblemTest.java:66)
+
+testQ2_2  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <In: In: 3
+0
+> but was: <Int 1: Int 2: 3
+0
+>
+	at PracticeProblemTest.testQ2_2(PracticeProblemTest.java:82)
+
+testQ3_1  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <In: Hello was the text you wrote
+> but was: <In: Hello was the text you wrote on the same line.
+>
+	at PracticeProblemTest.testQ3_1(PracticeProblemTest.java:97)
+
+testQ3_2  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <In: Bye was the text you wrote
+> but was: <In: Bye was the text you wrote on the same line.
+>
+	at PracticeProblemTest.testQ3_2(PracticeProblemTest.java:111)
+
+testQ6_1  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <In: 0.2999999999999998
+> but was: <In: 3.5
+>
+	at PracticeProblemTest.testQ6_1(PracticeProblemTest.java:181)
+
+testQ6_2  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <In: 5.8
+> but was: <In: 9.0
+>
+	at PracticeProblemTest.testQ6_2(PracticeProblemTest.java:195)
+
