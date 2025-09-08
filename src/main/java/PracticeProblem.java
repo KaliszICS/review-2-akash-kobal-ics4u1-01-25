@@ -12,17 +12,17 @@ public class PracticeProblem {
 	public static void q1() {
 		//Write question 1 code here "Get a String using "In: " as the prompt. Output the string."
 		Scanner reader = new Scanner(System.in);
-		System.out.print("Int: ");
-		int prompt = reader.nextInt();
+		System.out.print("In: ");
+		String prompt = reader.nextLine();
 		System.out.println(prompt); //prints input by user
 	}
 
 	public static void q2() {
 		//Write question 2 code here "Get two integers from user input using "In: " as the prompt. Output the quotient (rounded down) and the remainder on separate lines."
 		Scanner reader = new Scanner(System.in);
-		System.out.print("Int 1: ");
+		System.out.print("In: ");
 		int integer1 = reader.nextInt();
-		System.out.print("Int 2: ");
+		System.out.print("In: ");
 		int integer2 = reader.nextInt();
 		System.out.println(integer1 / integer2); //prints division
 		System.out.println(integer1 % integer2); //prints remainder
@@ -34,7 +34,7 @@ public class PracticeProblem {
 		Scanner reader = new Scanner(System.in);
 		System.out.print("In: "); //prints in:
 		String integerprompt = reader.nextLine(); //reads input from user
-		System.out.println(integerprompt + " was the text you wrote on the same line.");
+		System.out.println(integerprompt + " was the text you wrote");
 	}
 
 	public static void q4() {
@@ -58,7 +58,7 @@ public class PracticeProblem {
 		Scanner reader = new Scanner(System.in);
 		System.out.print("In: ");
 		double doubleinput = reader.nextDouble();
-		System.out.println(doubleinput); //prints the double
+		System.out.println(doubleinput - 3.2); //prints the double
 	}
 
 }
