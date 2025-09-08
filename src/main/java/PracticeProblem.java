@@ -34,7 +34,7 @@ public class PracticeProblem {
 		Scanner reader = new Scanner(System.in);
 		System.out.print("In: "); //prints in:
 		String integerprompt = reader.nextLine(); //reads input from user
-		System.out.println(integerprompt + " was the text you wrote"); //prints output
+		System.out.println(integerprompt + " was the text you wrote"); //print output
 	}
 
 	public static void q4() {
